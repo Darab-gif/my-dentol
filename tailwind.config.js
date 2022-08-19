@@ -29,7 +29,11 @@ module.exports = {
       shadow_5: "0px 2px 60px 0px black_10",
     },
 
-    extend: {},
+    extend: {
+      backgroundImage: {
+        hero: "url(./Assets/hero-bg.png)",
+      },
+    },
   },
   plugins: [],
 };
