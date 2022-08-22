@@ -6,6 +6,7 @@ import doctor4 from "../Assets/doctor-4.png";
 import { AiFillFacebook } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
 import { AiOutlineTwitter } from "react-icons/ai";
+import Appointment from "./Appointment";
 
 const Testimony = () => {
   return (
@@ -98,6 +99,7 @@ const Testimony = () => {
           </div>
         </div>
       </div>
+      <Appointment />
     </section>
   );
 };
