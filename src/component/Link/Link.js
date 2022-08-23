@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Button from "../Button";
 
 const LinkBar = () => {
@@ -7,20 +6,20 @@ const LinkBar = () => {
     <nav className="flex gap-8">
       <ul className="flex flex-row gap-8 pt-3">
         <li className="font-bold text-oxford_blue cursor-pointer  hover:text-royal_blue">
-          <Link to="/home">Home</Link>
+          Home
         </li>
 
         <li className="font-bold text-oxford_blue cursor-pointer  hover:text-royal_blue">
-          <Link to="/services">Services</Link>
+          Services
         </li>
         <li className="font-bold text-oxford_blue cursor-pointer hover:text-royal_blue">
-          <Link to="/about">About Us</Link>
+          About Us
         </li>
         <li className="font-bold text-oxford_blue cursor-pointer hover:text-royal_blue">
-          <Link to="/blog">Blog</Link>
+          Blog
         </li>
         <li className="font-bold text-oxford_blue cursor-pointer hover:text-royal_blue">
-          <Link to="/contact">Contact</Link>
+          Contact
         </li>
       </ul>
       <Button text="BOOK APPOINTMENT" />

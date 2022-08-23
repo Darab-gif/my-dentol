@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LinkBar from "./Link/Link";
 
 const Navbar = () => {
@@ -8,11 +7,8 @@ const Navbar = () => {
       <div className="ml-44">
         <h1 className="font-bold text-4xl text-oxford_blue">Dentol.</h1>
       </div>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<LinkBar />} />
-        </Routes>
-      </BrowserRouter>
+
+      <LinkBar />
     </header>
   );
 };
