@@ -33,10 +33,7 @@ module.exports = {
       backgroundImage: {
         hero: "url(./Assets/hero-bg.png)",
       },
-      screens: {
-        sm: "575px",
-        md: " 768px",
-      },
+     
     },
   },
   plugins: [],
