@@ -3,7 +3,7 @@ import Button from "../Button";
 
 const LinkBar = () => {
   return (
-    <nav className="flex gap-8">
+    <nav className="lg:flex lg:gap-8 hidden">
       <ul className="flex flex-row gap-8 pt-3">
         <li className="font-bold text-oxford_blue cursor-pointer  hover:text-royal_blue">
           Home
