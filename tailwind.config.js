@@ -52,4 +52,6 @@ module.exports = {
       backgroundImage: {
         hero: "url(./Assets/hero-bg.png)",
       },
-    }
+    },
+  },
+};
