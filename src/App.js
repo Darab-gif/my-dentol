@@ -13,7 +13,7 @@ import Testimony from "./component/Testimony";
 function App() {
   const [mobileLink, setMobileLink] = useState(false);
   return (
-    <section>
+    <section className="overflow-x-hidden">
       <Header />
       <Navbar MobileLink={setMobileLink} />
       <div
