@@ -7,8 +7,8 @@ import { AiOutlineEnvironment } from "react-icons/ai";
 
 const SubFooter = () => {
   return (
-    <section className="mt-20 bg-oxford_blue_2 flex gap-32">
-      <div className="pt-10 ml-32 ">
+    <section className="mt-20 bg-oxford_blue_2 flex gap-32 subfooter">
+      <div className="pt-10 ml-32 subfooter-head">
         <h1 className="text-white text-3xl font-extrabold">DENTOL.</h1>
         <p className="text-md text-steel_blue pt-8 w-52">
           Mauris non nisi semper, lacinia neque in, dapibus leo. Curabitur
@@ -64,7 +64,7 @@ const SubFooter = () => {
         </li>
       </ul>
 
-      <div className="pt-10 ">
+      <div className="pt-10 subfooter-card">
         <h1 className="text-white text-2xl font-bold w-40">Other Links</h1>
         <div className="pt-8 text-steel_blue w-32 font-bold inline-flex gap-1 cursor-pointer hover:text-white">
           <span className="pt-1 text-flickr_blue font-extrabold">
@@ -104,7 +104,7 @@ const SubFooter = () => {
         </div>
       </div>
 
-      <div className="pt-10 mr-52 ">
+      <div className="pt-10 mr-52 contact">
         <h1 className="text-white text-2xl font-bold">Contact Us</h1>
         <div className="pt-8 inline-flex gap-2 text-steel_blue w-[22rem]">
           <span className="bg-gradient-to-tr from-carolina_blue to-royal_blue h-10 w-10 text-white rounded-full flex justify-center items-center">

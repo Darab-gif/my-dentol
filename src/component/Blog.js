@@ -6,8 +6,8 @@ import blog3 from "../Assets/blog-3.jpg";
 
 const Blog = () => {
   return (
-    <section className="mt-40">
-      <div className="text-center">
+    <section className="mt-40 blog-home">
+      <div className="text-center blog">
         <h1 className="text-2xl text-royal_blue font-bold uppercase">
           OUR BLOG
         </h1>
@@ -15,8 +15,8 @@ const Blog = () => {
           Latest Blog & News
         </h2>
       </div>
-      <div className="mt-20 bg-lavender_web flex gap-8">
-        <div className="h-[35rem] w-[22rem] ml-28 bg-cultured">
+      <div className="mt-20 bg-lavender_web flex gap-8 blog-box">
+        <div className="h-[35rem] w-[22rem] ml-28 bg-cultured blog-card">
           <figure className="relative ">
             <img src={blog1} alt="" className="" />
             <span className="absolute bottom-6 left-2 bg-royal_blue text-white flex px-3 py-3 rounded-md gap-4">
@@ -34,7 +34,7 @@ const Blog = () => {
             READ MORE
           </button>
         </div>
-        <div className="h-[35rem] w-[22rem]  bg-cultured">
+        <div className="h-[35rem] w-[22rem]  bg-cultured blog-card">
           <figure className="relative ">
             <img src={blog2} alt="" className="" />
             <span className="absolute bottom-6 left-2 bg-royal_blue text-white flex px-3 py-3 rounded-md gap-4">
@@ -52,7 +52,7 @@ const Blog = () => {
             READ MORE
           </button>
         </div>
-        <div className="h-[35rem] w-[22rem]   bg-cultured">
+        <div className="h-[35rem] w-[22rem]   bg-cultured blog-card">
           <figure className="relative ">
             <img src={blog3} alt="" className="" />
             <span className="absolute bottom-6 left-2 bg-royal_blue text-white flex px-3 py-3 rounded-md gap-4">

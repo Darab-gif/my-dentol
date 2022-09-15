@@ -10,7 +10,7 @@ import banner from "../Assets/service-banner.png";
 export const Service = () => {
   return (
     <section>
-      <div className="text-center pt-20">
+      <div className="text-center pt-20 service-container">
         <h2 className="text-2xl text-royal_blue font-bold uppercase">
           Our Services
         </h2>
@@ -18,7 +18,7 @@ export const Service = () => {
           What We Provide
         </h1>
       </div>
-      <div className="flex gap-6 pt-20 ml-[3rem]">
+      <div className="flex gap-6 pt-20 ml-[3rem] service-card">
         <div className="ml-10">
           <div className="flex gap-6 border-2 border-gainsboro_50 h-52 w-[21rem] rounded-md">
             <figure className="mt-12 pl-4">
@@ -60,7 +60,7 @@ export const Service = () => {
             </div>
           </div>
         </div>
-        <figure className="pt-32">
+        <figure className="pt-32 banner">
           <img src={banner} alt="" />
         </figure>
         <div className="ml-10">

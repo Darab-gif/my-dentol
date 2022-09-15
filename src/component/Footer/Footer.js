@@ -5,7 +5,7 @@ import { AiOutlineTwitter } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <footer className="flex justify-between bg-oxford_blue_3 h-20 ">
+    <footer className="flex justify-between bg-oxford_blue_3 h-20 footer">
       <div className="text-white pt-6 ml-20">
         <p className="font-bold text-2xl">© 2022 All Rights Reserved.</p>
       </div>

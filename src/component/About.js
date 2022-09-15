@@ -4,11 +4,11 @@ import about_img from "../Assets/about-banner.png";
 
 const About = () => {
   return (
-    <section className="flex gap-20 mt-36">
+    <section className="flex gap-20 mt-36 about">
       <figure className="ml-32">
         <img src={about_img} alt="" className="h-[35rem] w-[30rem]" />
       </figure>
-      <div className="w-[35rem] pt-4">
+      <div className="w-[35rem] pt-4 about-container">
         <h2 className="text-3xl text-royal_blue font-bold pt-6 uppercase">
           About Us
         </h2>

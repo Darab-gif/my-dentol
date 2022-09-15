@@ -2,6 +2,25 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
+    screens: {
+      xs: "340px",
+      // => @media (min-width: 340px) { ... }
+
+      sm: "325px",
+      // => @media (min-width: 540px) { ... }
+
+      md: "768px",
+      // => @media (min-width: 768px) { ... }
+
+      lg: "1024px",
+      // => @media (min-width: 1024px) { ... }
+
+      xl: "1280px",
+      // => @media (min-width: 1280px) { ... }
+
+      "2xl": "1536px",
+      // => @media (min-width: 1536px) { ... }
+    },
     colors: {
       steel_blue: "hsl(218, 33%, 77%)",
       royal_blue: "hsl(225, 68%, 53%)",
@@ -32,10 +51,6 @@ module.exports = {
     extend: {
       backgroundImage: {
         hero: "url(./Assets/hero-bg.png)",
-      },
-      screens: {
-        sm: "575px",
-        md: " 768px",
       },
     },
   },

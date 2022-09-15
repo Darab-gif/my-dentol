@@ -8,7 +8,7 @@ import { AiFillYoutube } from "react-icons/ai";
 
 const Header = () => {
   return (
-    <nav className="bg-oxford_blue_2 flex justify-between py-4">
+    <nav className="bg-oxford_blue_2 lg:flex lg:justify-between py-4 hidden">
       <ul className="list-none flex gap-14 ml-24">
         <li className="text-white text-opacity-[0.9] flex flex-row content-center justify-center gap-1 pt-1">
           <span className=" text-royal_blue pt-1">

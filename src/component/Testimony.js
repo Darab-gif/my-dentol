@@ -11,14 +11,14 @@ import Appointment from "./Appointment";
 const Testimony = () => {
   return (
     <section className="mt-20">
-      <div className="text-center">
+      <div className="text-center testimony-head">
         <h2 className="text-2xl text-royal_blue font-bold">OUR DOCTOR</h2>
         <h1 className="text-6xl text-oxford_blue_2 font-bold pt-3">
           Best Expert Dentist
         </h1>
       </div>
-      <div className="mt-20 flex gap-10">
-        <div className="border-2 border-gainsboro_50 h-[26rem] w-[15rem] text-center ml-32 rounded-md">
+      <div className="mt-20 flex gap-10 testimony-box">
+        <div className="border-2 border-gainsboro_50 h-[26rem] w-[15rem] text-center ml-32 rounded-md testimony-card">
           <figure className="pt-6 ml-7">
             <img src={doctor1} alt="" className="h-[12rem] w-[11rem]" />
           </figure>
@@ -38,7 +38,7 @@ const Testimony = () => {
             </span>
           </div>
         </div>
-        <div className="border-2 border-gainsboro_50 h-[26rem] w-[15rem] text-center rounded-md">
+        <div className="border-2 border-gainsboro_50 h-[26rem] w-[15rem] text-center rounded-md testimony-card">
           <figure className="pt-6 ml-7">
             <img src={doctor2} alt="" className="h-[12rem] w-[11rem]" />
           </figure>
@@ -58,7 +58,7 @@ const Testimony = () => {
             </span>
           </div>
         </div>
-        <div className="border-2 border-gainsboro_50 h-[26rem] w-[15rem] text-center rounded-md">
+        <div className="border-2 border-gainsboro_50 h-[26rem] w-[15rem] text-center rounded-md testimony-card">
           <figure className="pt-6 ml-7">
             <img src={doctor3} alt="" className="h-[12rem] w-[11rem]" />
           </figure>
@@ -78,7 +78,7 @@ const Testimony = () => {
             </span>
           </div>
         </div>
-        <div className="border-2 border-gainsboro_50 h-[26rem] w-[15rem] text-center rounded-md">
+        <div className="border-2 border-gainsboro_50 h-[26rem] w-[15rem] text-center rounded-md testimony-card">
           <figure className="pt-6 ml-7">
             <img src={doctor4} alt="" className="h-[12rem] w-[11rem]" />
           </figure>
