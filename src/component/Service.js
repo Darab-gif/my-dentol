@@ -18,7 +18,7 @@ export const Service = () => {
           What We Provide
         </h1>
       </div>
-      <div className="flex gap-6 pt-20 ml-[3rem] service-card">
+      <div className="flex content-center gap-6 pt-20 ml-[3rem] service-card">
         <div className="ml-10">
           <div className="flex gap-6 border-2 border-gainsboro_50 h-52 w-[21rem] rounded-md">
             <figure className="mt-12 pl-4">

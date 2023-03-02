@@ -15,7 +15,7 @@ const Blog = () => {
           Latest Blog & News
         </h2>
       </div>
-      <div className="mt-20 bg-lavender_web flex gap-8 blog-box">
+      <div className="mt-20 bg-lavender_web flex content-center gap-8 blog-box">
         <div className="h-[35rem] w-[22rem] ml-28 bg-cultured blog-card">
           <figure className="relative ">
             <img src={blog1} alt="" className="" />

@@ -17,7 +17,7 @@ const Testimony = () => {
           Best Expert Dentist
         </h1>
       </div>
-      <div className="mt-20 flex gap-10 testimony-box">
+      <div className="mt-20 flex content-center gap-10 testimony-box">
         <div className="border-2 border-gainsboro_50 h-[26rem] w-[15rem] text-center ml-32 rounded-md testimony-card">
           <figure className="pt-6 ml-7">
             <img src={doctor1} alt="" className="h-[12rem] w-[11rem]" />

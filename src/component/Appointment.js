@@ -4,7 +4,7 @@ import img from "../Assets/cta-banner.png";
 
 const Appointment = () => {
   return (
-    <section className="mt-28 h-[31.5rem] w-full bg-oxford_blue flex gap-20 appointment">
+    <section className="mt-28 h-[31.5rem] w-full bg-oxford_blue flex content-center gap-20 appointment">
       <figure className="ml-24 pt-6">
         <img src={img} alt="" className="h-[30rem] w-[32rem]" />
       </figure>
